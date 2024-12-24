@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/fa/Vazir.eot');
+    src: url('../fonts/fa/Vazir?#iefix') format('embedded-opentype'),
+		 url('../fonts/fa/Vazir.woff2') format('woff2'),
+		 url('../fonts/fa/Vazir.woff') format('woff'),
+		 url('../fonts/fa/Vazir.ttf') format('truetype');
+}
+@font-face {
+    font-family: vazir-bold;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/fa/Vazir-Bold-FD.eot');
+    src: url('../fonts/fa/Vazir-Bold-FD?#iefix') format('embedded-opentype'),
+		 url('../fonts/fa/Vazir-Bold-FD.woff2') format('woff2'),
+		 url('../fonts/fa/Vazir-Bold-FD.woff') format('woff'),
+		 url('../fonts/fa/Vazir-Bold-FD.ttf') format('truetype');
+}
+@font-face {
+    font-family: Vazir-Black;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/fa/Vazir-Black-FD.eot');
+    src: url('../fonts/fa/Vazir-Black-FD?#iefix') format('embedded-opentype'),
+		 url('../fonts/fa/Vazir-Black-FD.woff2') format('woff2'),
+		 url('../fonts/fa/Vazir-Black-FD.woff') format('woff'),
+		 url('../fonts/fa/Vazir-Black-FD.ttf') format('truetype');
+}
+
+
+body {
+	direction: rtl;
+	text-align: right !important;
+}
+body, p, .alx-heading__description, .alx-btn, .alx-testimonials__item__text{
+	font-family: Vazir !important;
+}
+h1,h2,h3,h4,h5,h6,.heading,.h{
+	font-family: Vazir-Black !important;
+}
+header .alx-social-links {
+    margin-left: 100px;
+	margin-right: 0 !important;
+}
+
+.alx-social-links ul {
+    direction: ltr;
+}
+.alx-aside-sidebar .alx-burger {
+    right: auto !important;
+    left: 40px;
+}
+.alx-lang-change ul li {
+    margin-left: 0 !important;
+    margin-right: 25px;
+}
+
+.alx-heading__pretitle i {
+    margin-right: 0 !important;
+	margin-left: 10px;
+}
+.alx-heading__zigzag {
+    margin-left: auto !important;
+    margin-right: 0;
+}
+.alx-services__item__description {
+	text-align: right !important;
+}
+@media (min-width: 992px){
+.offset-lg-2 {
+    margin-left: auto !important;
+	margin-right: 16.66667%;
+}}
+.alx-skills__bar:after {
+    right: auto!important;
+    left: 0;
+}
+.alx-price .alx-price__price span {
+	margin-left: 10px;
+    margin-right: 0!important;
+}
+.alx-portfolio__nav li:after {
+    left: 0!important;
+    right: 50%!important;
+    -webkit-transform: translateY(-50%) translateX(50%)!important;
+    -ms-transform: translateY(-50%) translateX(50%)!important;
+    transform: translateY(-50%) translateX(50%)!important;
+}
+.alx-testimonials {
+    direction: ltr;
+}
+.alx-testimonials__content:after {
+    left: -20px;
+    right: auto!important;
+    transform: rotateY(180deg);
+}
+.alx-testimonials__item img {
+    right: 25px;
+    left: auto!important;
+}
+.alx-icon__icon {
+	margin-left: 20px;
+	margin-right: 0 !important;
+}
+.alx-aside-sidebar {
+    right: auto !important;
+    left: 0;
+	transform: translateX(-200%);
+	-webkit-transform: translateX(-200%);
+    -ms-transform: translateX(-200%);
+}
+.alx-aside-sidebar__open {
+    -webkit-transform: translateX(0) !important;
+    -ms-transform: translateX(0) !important;
+    transform: translateX(0) !important;
+}
+.alx-price, .alx-heading__pretitle, .alx-btn, .alx-portfolio__nav li, .alx-sidebar-widget h5, .alx-sidebar-menu ul li a, .alx-icon h5 {
+	letter-spacing: 0 !important;
+}
+.alx-text-center .alx-heading__zigzag {
+	margin-right: auto!important;
+}
+.alx-services__item:hover .alx-services__item__main>i {
+	margin-right: 0 !important;
+	margin-left: 10px;
+}
+.alx-sidebar-menu ul li {
+    width: unset!important;
+}
+.alx-social-links__2 ul {
+    direction: ltr;
+}
+.alx-input-group i {
+    left: 25px;
+    right: auto !important;
+}
+.alx-input-group input, .alx-input-group textarea {
+    padding: 14px 25px 14px 50px !important;
+}
